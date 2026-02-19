@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+    <style>
+        h1{
+            background-color: aquamarine;
+            color: black
+        }
+        main{
+            background-color: azure;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <h1 align ="center">Feedback Form</h1>
+        <hr>
+        <main>
+    <form>
+    <label for="Name">Full Name :</label>
+    <input type="text" placeholder="Enter your name: " required >
+    <br><br>
+    <label for="Eamil">Email : </label>
+    <input type="text" placeholder="abc@example.com" required >
+    <br><br>
+    <label for="Rating">Rating : </label>
+    <input type="number" min="0" max="5" required>
+    <br><br>
+    
+    <input list="Branch">
+    <datalist id="Branch">
+        <option value="1-Star"></option>
+        <option value="2-Star"></option>
+        <option value="3-Star"></option>
+        <option value="4-Star"></option>
+        <option value="5-Star"></option>
+    </datalist>
+    <br><br>
+    <label for="Mobile">Mobile No.</label>
+    <input type="tel" placeholder="+91" required></label>
+    <br><br>
+    <label for="">feedback</label> 
+    <br>
+    <textarea name="" id="" cols="50" rows="10" placeholder="Kindly give your feedback"></textarea>
+    <br>
+<input type="submit" value="register">
+<input type="Reset" value="Reset">
+
+    </form>
+</main>
+
+</body>
+</html>
