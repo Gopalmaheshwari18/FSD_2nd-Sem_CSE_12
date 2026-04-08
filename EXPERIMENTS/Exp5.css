@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 .container {
     width: 650px;
     margin: 50px auto;
@@ -13,12 +12,10 @@ body {
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
-
 h2 {
     color: #333;
     margin-bottom: 15px;
 }
-
 input {
     width: 40%;
     padding: 10px;
@@ -28,12 +25,10 @@ input {
     outline: none;
     transition: 0.3s;
 }
-
 input:focus {
     border-color: #007bff;
     box-shadow: 0 0 5px rgba(0,123,255,0.3);
 }
-
 button {
     padding: 10px 15px;
     margin: 6px;
@@ -44,7 +39,6 @@ button {
     cursor: pointer;
     transition: 0.3s;
 }
-
 button:hover {
     background: #0056b3;
     transform: scale(1.05);

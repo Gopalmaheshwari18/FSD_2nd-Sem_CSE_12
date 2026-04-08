@@ -7,7 +7,6 @@ body{
     align-items:center;
     margin:0;
 }
-
 .container{
     background:#ffffff;
     padding:35px;
@@ -16,18 +15,15 @@ body{
     box-shadow:0 10px 25px rgba(0,0,0,0.2);
     text-align:center;
 }
-
 h2{
     margin-bottom:20px;
     color:#333;
 }
-
 label{
     font-size:16px;
     font-weight:600;
     color:#444;
 }
-
 input{
     padding:10px;
     width:90%;
@@ -37,12 +33,10 @@ input{
     font-size:15px;
     outline:none;
 }
-
 input:focus{
     border-color:#2575fc;
     box-shadow:0 0 5px rgba(37,117,252,0.4);
 }
-
 button{
     margin-top:15px;
     padding:10px 25px;
@@ -54,12 +48,10 @@ button{
     cursor:pointer;
     transition:0.3s;
 }
-
 button:hover{
     transform:scale(1.05);
     box-shadow:0 5px 15px rgba(0,0,0,0.2);
 }
-
 #result{
     margin-top:20px;
     font-weight:bold;
